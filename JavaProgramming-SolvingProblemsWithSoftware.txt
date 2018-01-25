@@ -1,0 +1,315 @@
+@JAVA PROGRAMMING
+COURSE: Java Programming: Solving Problems with Software
+  http://www.dukelearntoprogram.com/index.php
+  https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-ParsingExportData.pdf
+
+	@WEEK1: FUNDAMENTAL JAVA SYNTAX AND SEMANTICS
+	    [WELCOME]
+	        + Programming Resources: http://www.dukelearntoprogram.com/index.php
+	        + Tips 4 learning programming:
+	          1.Do a little each day
+	          2.Don't give up
+	          3.Follow the 7 step process
+	          4.Read the documentation
+	          5.Use the live coding videos and assignments
+	          6.Ask for help in the forums!
+	    
+	    [GETTING STARTED WITH BLUEJ]
+	        Module Learning Outcomes
+	          [https://www.youtube.com/watch?v=CPUaTT0Xoo4&list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd]
+	          Fundamental Java Syntax and Semantics Module
+	          In this module, you will learn to write and run your first Java programs, including one program that prints “Hello!” in various countries’ languages and another where you will analyze the perimeters and other information of shapes. To accomplish these tasks, you will learn the basics of Java syntax and how to design stepwise solutions with programs.
+	    
+	          By the end of this module, you will be able to:
+	            Download and run BlueJ, the Java programming environment for this course;
+	            Access the documentation for the Java libraries specially designed for this course;
+			    Edit, compile, and run a Java program;
+			    Construct methods, variables, if else statements, and for each loops in Java; and
+			    Use Iterables (like DirectoryResource) to run a program that iterates over multiples lines in a document or webpage or multiple files in a directory.
+			    More course resources are available in the Resources tab
+
+			Why use Java?
+			   Java is a popular and widely used language. It is the foundation for the Android operating system that powers more smart phones than any other system in the world. Java is an extremely useful and quite powerful language, with extensive support on almost every kind of computer. Java is also accessible to beginners, which is why we're using it in our courses.
+
+		[VARIABLES AND MATHEMATICAL OPERATORS]
+
+	    [SEVEN STEPS FOR SOLVING PROGRAMMING PROBLEMS]
+		  1.Work Example By Hand
+		    - Solve small instance by hand.
+		    - Unclear problem?
+		    - Need domain knowledge?
+		  2.Write Down What You Did
+		    - Write down exact steps
+		    - Just that instance
+		    - Tricky: Do without thinking
+		  3.Find Patterns
+		    - Algorithm for any instance
+		    - Find patterns
+		    - Repetition, condition, values
+		    + Dificulties?
+		      . Try Step 1 + 2 again
+		      . Different inputs
+		  4.Check By Hand
+		    - Incorrect pattern? Find now
+		    - Check with different inputs
+		  5.Translate To Code
+		    - Translate algorithm to code
+		      . Programming language
+		  6.Run Test Cases
+		    - Execute program
+		    - Check answer
+		  7.Debug Failed Test Cases
+		    - Test failed? Debug
+	          . Use scientific method
+	          . Understand problem + fix
+
+
+	    []
+		    1. What is the perimeter of the shape made from the file datatest4.txt whose contents are shown below (just give to two decimal places)?
+		       R:/ 59.45
+		    2. What is the average length of a side in the shape made from the file datatest1.txt whose contents are shown below (just give to two decimal places)?
+		       R:/ 7.66
+		    3. What is the longest side in the shape made from the file datatest4.txt whose contents are shown below (just give to two decimal places)?
+		       R:/ 5
+		    4. What is the largest perimeter of a shape made from the shapes in files dataset1.txt, dataset2.txt, dataset3.txt, dataset4.txt, dataset5.txt, and
+		       dataset6.txt (just give to two decimal places)?   
+		       R:/ 62.65
+		    5. What is the name of the file that has the shape with the largest perimeter from the six files dataset1.txt, dataset2.txt, dataset3.txt, dataset4.txt,
+		       dataset5.txt, and dataset6.txt?   
+		       R:/ dataset5.txt
+		    6. The method getNumPoints returns the number of points in a Shape s.
+		       Which one of the following is NOT a correct implementation of getNumPoints?
+
+		        public int getNumPoints (Shape s) {
+				  int count = 0;
+				  for (Point p : s.getPoints()) {
+				    int newPoint = 1;
+				    count = count + newPoint;
+				  }
+				  return count;
+				}
+
+		    7. Consider the following code for the function mysteryShape that has one parameter a Shape s and calls the function getNumPoints from the assignment.
+				
+				public double mysteryShape (Shape s) {
+				  double tmp = 0;
+				  for (Point p : s.getPoints()) {
+				    
+				    if (p.getX() > 0) {
+				      
+				      if (p.getY() < 0) {
+				        tmp = tmp + 1;
+				      }
+				    }
+				  }
+				  return tmp / getNumPoints(s);    
+				}
+
+		        Which one of the following best describes the purpose of this function?
+		        The function computes the percentage of those points from the Shape s that have a positive X and a negative Y.
+
+
+	@WEEK2: STRINGS IN JAVA
+	  	[GOALS FOR LESSON]
+	  	  + Learn about the Java String Class
+	  	    - Details, idioms, programming experience
+	  	    - Common String methods
+	  	  + Learn about Java types and operators
+	  	    - Numeric types and operators as well as String
+	  	    - int and double types
+	  	  + Finding patterns and information
+	  	    - Searching, repeating, reasoning
+
+	  	[POSITIONS IN A STRING:"INDEXES"]
+	  	  . NUMBER EACH POSITION
+	  	    - Starts at 0
+	  	    - Called the "index" of that character
+	  	      dukeprogramming
+	  	      012345678901234  -> "The letter at index 3 is e"
+
+	  	  .Built-in methods
+	  	    .substring(start(included), end (excluded))
+	  	    .length : How many characters in the String. [A String with length 15 has valid indices 0 to 14]
+	        .indexOf(_searchedStr_) : Find one string within another, return the starting index, if not found returns -1
+	                                  Can give another parameter specifying where to start
+	        .startsWith(_searchedStr) : Checks if the String starts with some other String (returns true/false)
+	        .endsWith(_searchedStr) :  Checks if the String ends with some other String (returns true/false)
+
+	  	     -> String s = "dukeprogramming";
+	  	        s.substring(4,7);    -> "pro"
+	  	    	s.length();          -> 15
+	  	    	s.indexOf("program") -> 4
+	  	    	s.indexOf("g")       -> 7
+	  	    	s.indexOf("g", 8)    -> 14
+	  	    	s.startsWith("duke") -> true
+	  	    	s.endsWith("king")   -> false
+
+
+			[PRACTICE QUIZZ]
+			   1.Consider the assignment that goes with this lesson and its algorithm for finding a gene with stop codon TAA.
+			  Consider the following DNA string. -> “AAATGCCCTAACTAGATTAAGAAACC”
+			     Which one of the following is the gene returned using that algorithm?
+			       R:/ ATGCCCTAA
+			   2.Which one of the following replaces the String variable dna with the lowercase version of this string?
+			       R:/ dna = dna.toLowerCase();
+			   3.After adding two additional parameters to findSimpleGene for the startCodon and stopCodon, which of the following 
+			     is another change that must be made for the program to compile?
+			       R:/ Two arguments must be added to the call to findSimpleGene.
+			   4.Suppose that stringa is in stringb at position pos. Which one of the following returns the part of stringb 
+			     that comes after stringa in the method lastPart?
+			       R:/ return stringb.substring(pos+stringa.length());
+			   5.In the method twoOccurrences, suppose pos is the value of the first occurrence of stringa when stringa is found. 
+			     Which of the following lines of code assigns pos2 to the second occurrence of stringa if there is a second occurrence?
+			       R:/ pos2 = stringb.indexOf(stringa, pos+1);
+			      6.Consider assignment 2 for this lesson. Consider the code to find and print all the YouTube URL links.
+			          URLResource file = new  URLResource("http://someURL");
+				for (String item : file.words()) {
+				   	   String itemLower = item.toLowerCase();
+				   	   int pos = itemLower.indexOf("youtube.com");
+				   	   if (pos != -1) {
+				       	 MISSING CODE
+				       }
+				}
+
+	    [FINDING ALL GENES IN DNA]
+	      + What you will learn
+	      -> How to repeat a process using a new form of loop in Java: the while loop
+	        . Complements the for loop with iterables
+	      -> Use of StorageResource in edu.duke library
+	        . Adding values, counting them, filtering them, preview of using arrays
+	      -> Short-circuited boolean evaluation
+	        . Helps in developing good coding practices
+
+	    [DEBUGGING CODE]
+
+	    [USING THE StorageResource CLASS] -> SEPARATION OF CONCERNS
+
+
+
+	@WEEK3: CSV Files and Statistics in JAVA
+	    [WHICH COUNTRIES EXPORT...?]
+	        [CSV DATA: Comma Separated Values]
+	        . Tabular (row/column) format data: write code!
+	        . Spreadsheets revolutionized and started new industries: http://n.pr/1Ov78vS
+	        . CSV files: Comma Separated Values
+
+	      + Programming with CSV Files
+	        . Spreadsheets extremely useful: visualizing, finding information, trends, much more.
+	        . Data in CSV format can be portable between different spreadsheet programs
+	        . Common formats have standards:
+	          - IETF RFC 4180: Comma Separated Values (CSV)
+	          - ISO/IEC 29500: Open Office XML
+	        . Use existing library: Apache CSVParser
+
+	        [USING CSV LIBRARIES]
+	        import org.apache.commons.csv.*;
+	        ...
+	          FileResource fr = new FileResource();
+	          CSVParser parser = fr.getCSVParser();
+	          for(CSVRecord record : parser){
+	            System.out.print(record.get("Name")+" ");
+	            System.out.print(record.get("Favorite Food")+" ");
+	            System.out.println(record.get("Favorite Color"));
+	          }
+
+	        [PROGRAMMING EXERCISE-PARSING EXPORT DATA]
+	 		  https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-ParsingExportData.pdf
+
+	    [WEATHER CSV PROBLEM]
+	        [CONVERTING STRINGS TO NUMBER]
+	          .Cannot just assign String to int
+	          .Use Integer.parseInt
+	          .Real numbers: Double.parseDouble
+
+	        ... 
+	            String yearStr = row.get("year");
+	            int value = Integer.parseInt(yearStr);
+
+	        [JAVA FOR NOTHING]
+	          .Literal null has this type
+	          .Can be converted to any object type
+
+	          + PRIMITIVES VS OBJECTS
+	            Primitive types: cannot be null byte/short/int/long/float/double/char/boolean
+	            Object types: can be null
+
+	        [PROGRAMMING EXERCISE-PARSING WEATHER DATA]
+	          https://d3c33hcgiwev3.cloudfront.net/_3fc8c8de17d90ac3e59c086b19fecd6d_ProgrammingExercise-ParsingWeatherData.pdf?Expires=1516838400&Signature=ZVgPK8G7X~qzQUBO7ohiwjKGwbZXLsiFZrHl9MF9zl05RsjTXoU~Odgdf5-5JmIB7ETwb2gj2J515LxTdKCSGbeVWuwHDptmJvPrRP~S41JgG7mSxtXX6t-WplPiDiNftjbHNiNsvkJ2Dd9-bzCM4MCkkHWqUvMulEyjTPzE6hw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+
+	@WEEK4: Baby Names / Grayscale Images
+	    http://www.dukelearntoprogram.com/course2/
+
+	    [Baby Names]
+	        http://time.com/3856405/baby-name-popularity/
+
+	        [PROGRAMMING EXERCISE-ANALYZING BABY NAMES]
+	          https://d3c33hcgiwev3.cloudfront.net/_851b53b5e6ef4c4404b6f69aee558559_Module5-MiniProject-ProgrammingExerciseGuide.pdf?Expires=1516838400&Signature=PCrr6q9F8z33JtoTkv1-NB8lcXNUUeuFGSHvjdZQuCOP8QTBviugnjoQ0kJzBbj8Kw3fBgifr-jrTBAuj06KmaCogTm7slT~pPlhRSSmdxUk34cZeWbaC65tlCMjO4mXaZeQH390bsp2WHQ0LlksbxfJLXLvagGT8F887vPZxiM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+	    [BATCH GRAYSCALE]
+		    [GRAYSCALE]
+		      Convert an Image to grayscale:
+		      Why?
+		      . Printing: cheaper, sometimes required
+		      . Faster: easier for other processing
+		      For one image: might use image editor
+
+		      Task: Convert many images to grayscale
+		       . User selects images, from 1 to 1000
+		       . Convert each to grayscale
+		       . Save converted, new images as files
+		         - Add "gray-" prefix to original file name
+
+		        1.Ask user to pick files Iterate over them
+		        2.Convert one image to grayscale
+		        3.Combine: convert many
+		        4.Save results
+
+		    [GRAYSCALE ALGORYTHM]
+		      Domain knowledge
+		       What is gray? R = G = B
+		       -> How to convert RGB to gray?
+		          . Average? -> (255 + 0 + 255)/3 = 170
+		          . Weighted Average?
+		          . More complex formula?
+
+		        
+		    [IMAGE ITERABLE]  	
+		      ...
+		      public void grayScale(ImageResource inImage){}
+			    ImageResource outImage = new ImageResource(inImage.getWidth(), inImage.getHeight());
+			    for(Pixel pixel : outImage.pixels()){
+			      Pixel inPixel = inImage.getPixel(pixel.getX(), pixel.getY());
+			      int average = (inPixel.getRed()+inPixel.getGreen()+inPpixel.getBlue())/3;
+			      pixel.setRed(average);
+			      pixel.setGreen(average);
+			      pixel.setBlue(average);
+			    }
+			    outImage.draw();
+			  }
+
+
+		    [BATCH PROCESSING]
+		      ...
+		      public void batchGrayScale(){
+	            DirectoryResource dr = new DirectoryResource();
+		        for(File file : dr.selectedFiles()){
+		          ImageResource img = new ImageResource(file);
+		          grayScale(img);
+		        }
+		      }
+
+
+		    [SAVING IMAGES]
+		      ...
+		      String fName = img.getFileName();
+		      String newName = "copy-"+fName;
+		      img.setFileName(newName);
+		      //img.draw();
+		      img.save();
+
+
+		    [PROGRAMMING EXERCISE-BATCH GRAYSCALE IMAGE]
+		      https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-BatchGrayscale.pdf
+
+COURSE2

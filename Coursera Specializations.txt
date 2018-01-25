@@ -1,0 +1,53 @@
+<<<JAVA COURSERA SPECIALIZATIONS>>>
+    + JAVA PROGRAMMING AND SOFTWARE ENGINEERING FUNDAMENTALS SPECIALIZATION
+      [Duke University]
+      (Explore a Career as a Software Engineer. Learn the basics of programming and software development)
+        COURSE1: Programming Foundations with JavaScript, HTML and CSS
+        COURSE2: Java Programming: Solving Problems with Software
+	      COURSE3: Java Programming: Arrays, Lists, and Structured Data
+	      COURSE4: Java Programming: Principles of Software Design
+	      COURSE5: Java Programming: Build a Recommendation System
+
+    + OBJECT-ORIENTED-PROGRAMMING-IN-JAVA 
+      [UC San Diego, Duke University]
+      (Grow Your Portfolio as a Software Engineer. Learn about Object Oriented Design in four project-based courses.)
+        COURSE1: Java Programming: Solving Problems with Software
+        COURSE2: Java Programming: Arrays, Lists, and Structured Data
+        COURSE3: Object Oriented Programming in Java
+        COURSE4: Data Structures and Performance
+
+    + DATA STRUCTURES AND BEYOND
+        COURSE1: Object Oriented Programming in Java
+        COURSE2: Data Structures and Performance
+        COURSE3: Advanced Data Structures in Java
+        COURSE4: Mastering the Software Engineering Interview
+        COURSE5: Analyzing (Social) Network Data
+
+    + PARALLEL, CONCURRENT AND DISTRIBUTED PROGRAMMIG
+      [Rice University]
+      (Boost Your Programming Expertise with Parallelism. Learn the fundamentals of parallel, concurrent, and distributed programming.)
+        COURSE1: Parallel Programming in Java
+        COURSE2: Concurrent Programming in Java
+        COURSE3: Distributed Programming in Java
+
+    + SOLVING COMPLEX PROBLEMS
+      [Macquarie University]
+      (Problem Solving Skills for Business and Innovation. Learn how to analyze, evaluate, and solve complex problems from all disciplinary perspectives)
+        COURSE1: Analysing Complexity
+        COURSE2: Evaluating Problems
+        COURSE3: Creating Innovation
+        COURSE4: Solving Complex Problems <Capstone>
+    
+    + SOFTWARE DESIGN AND ARCHITECTURE SPECIALIZATION
+        COURSE1: Object-Oriented Design
+        COURSE2: Design Patterns
+        COURSE3: Software Architecture
+        COURSE4: Service-Oriented Architecture
+
+    + FUNCTIONAL PROGRAMMING IN SCALA SPECIALIZATION
+      (Program on a Higher Level. Write elegant functional code to analyze data that's big or small)
+        COURSE1: Functional Programming Principles in Scala
+        COURSE2: Functional Program Design in Scala
+        COURSE3: Parallel programming
+        COURSE4: Big Data Analysis with Scala and Spark
+        COURSE5: Functional Programming in Scala Capstone
