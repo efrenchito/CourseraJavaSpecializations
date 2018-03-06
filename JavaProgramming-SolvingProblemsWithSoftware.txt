@@ -1,7 +1,5 @@
-@JAVA PROGRAMMING
-COURSE: Java Programming: Solving Problems with Software
-  http://www.dukelearntoprogram.com/index.php
-  https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-ParsingExportData.pdf
+@COURSE: Java Programming: Solving Problems with Software
+   http://www.dukelearntoprogram.com/course2/index.php
 
 	@WEEK1: FUNDAMENTAL JAVA SYNTAX AND SEMANTICS
 	    [WELCOME]
@@ -185,7 +183,6 @@ COURSE: Java Programming: Solving Problems with Software
 	    [USING THE StorageResource CLASS] -> SEPARATION OF CONCERNS
 
 
-
 	@WEEK3: CSV Files and Statistics in JAVA
 	    [WHICH COUNTRIES EXPORT...?]
 	        [CSV DATA: Comma Separated Values]
@@ -311,5 +308,3 @@ COURSE: Java Programming: Solving Problems with Software
 
 		    [PROGRAMMING EXERCISE-BATCH GRAYSCALE IMAGE]
 		      https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-BatchGrayscale.pdf
-
-COURSE2

@@ -1,0 +1,437 @@
+@COURSE: Java Programming: Arrays, List & Structured Data
+  RESOURCES
+   .http://www.dukelearntoprogram.com/course3/index.php
+   .https://www.youtube.com/playlist?list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd
+   .http://www.dukelearntoprogram.com/downloads/bluej.php
+
+    @WEEK1: CRYPTOGRAPHY: KEEPING INFORMATION SECRET
+        [MODULE LEARNING]
+            [Implementing the Caesar Cipher]
+              https://d3c33hcgiwev3.cloudfront.net/_02232c51bd56cfffd74188b59737f608_BriefHistoryOfCryptography.pdf?Expires=1517011200&Signature=IuICsfYBbdjB558u2rPMJzTKxMgXbdWYosKYSGtKML5xQmKcn3qLCrmWrCnL6b3EwQPhknIc-nFuFayBZeSXFzok1YMmCUzoOiB7WC-hITMoj5nwqWWeYE~k32OUZ3pFBmxKRussi5WNdNWyo7tJy9EliLoHfuWJKzHT3EQuCew_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_c2e630821e73c4f9a3b6deeb27e9e940_ImplementingCaesarIntroduction.pdf?Expires=1517011200&Signature=ZzBvrRtANzzJHBp2w3Bz6DK2d0IFKNztNKio3f4pbonYCRM7ukveD0u0OkV4ABYCjxhHdbk7KYuFcBH4zfYCgfC0JBwco1hI23noX5rX3OUBZRvkN4vZgFoSlkP4sKrmUS~dPHXLIu2OMmDIeLrLo8q1wrCuu4a8gh1O5QbXyC0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_b7a407e6ef78a1aa38ce5a70d27bc517_CreatingAndManipulatingStrings.pdf?Expires=1517011200&Signature=NYNZmSHf8Di-RWkyYj2cVze6~qjZWwLS993TmjIedTATTlLMoeTaklhF4gu4j9dlvasuidiCoOtNX57jrO6RlqMHPjvUAatexaYvJVI5-hu6bpAGWoJU7whHrzj6uPd5SB89zVSg3DdeTurbe1iRIreSOOlA0eB-c8eM9xwoosw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_b7a407e6ef78a1aa38ce5a70d27bc517_CountingLoops.pdf?Expires=1517011200&Signature=LdtEt985j6kpBfqLis~eLEr4Toq7m3pN0WgO5uciJ1e4dSgieQJDLHVGSUUlM5hr2AyXw8Fx3ysHi14yC2wMZ6eG7odz9DxfcbsBBCQQObABSd-nYlqoDZr~xh6acOV41~ofS7awYLrj7jvt2Mpt7WBai5Zy5wm1xjj6mCG5roo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_0dfe2cc49af0b64858475dae4fe0996a_CharacterClass.pdf?Expires=1517011200&Signature=WK4WBZqrF8oOnXSny4GKyPghWAyqNKxz6pG2yKi9nsdFJ9hTzQVRiZR~ad3tCpYs07da8Ul-t9slbl2VIu-mGJxFXnj5j1hnjvPa8uvhBtMWkYta588CJtWlPi4Stl40cZlyCwzEDzPs0vRqUN62B7faVKOT4GXzc9FeE4FLn40_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_97b2340f6f9d165dabaed098f25794b6_ImplementingCaesarAlgorithm.pdf?Expires=1517011200&Signature=Z5vwxgJF0Z~OkZ~cwhZ3ifwmr8-iLjozamwtqkVWAqQbShQ-iW3UPbSW8KjVMbkhpswbxpmivV8KplbIAczM29ijVO6ODCWOQWW6MbEyneoYO~wk9ATaQ-jEY8sYfwjZnLk4HWOeZkJJ2-oMhFLo4LcJreuaC01nyt2RTDIVO7I_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_97b2340f6f9d165dabaed098f25794b6_ImplementingCaesarSummary.pdf?Expires=1517011200&Signature=XyHhSAXyeEP19H4Go6oOz7kvGUZOglJZSU96q4Dua-OMsMWWU7z8p1g82K9a83qCx6~HC4g6tYFXkIqrcmiJEGPXlpRnOuK6kOBLnTwgYOQgQzoPk9CIczSWaWGwLYoEnT8FPNaijf7dH04vPXk8LHqV3Zx7muuj3ZhokzxuEa0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+            [Breaking the Caesar Cipher]
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_BreakingCaesarIntroduction.pdf?Expires=1517702400&Signature=R7LODOLjh0z7lst1pnw4qi~iZpzAOvnhzviFcJKlQK8QcwSzbqUaCySIP9~PO9JgtCE-~WSxP0x35EccCfLLByuD-KIHJWg~VhlbTXWE13a1NopPQ9VBpVmhbP7KgoxfhT7S7d8~okVfcXoJBjnrat3k2rrF6Fle5vivIZCfAuQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_Arrays.pdf?Expires=1517702400&Signature=f8NTKqpxUtbn6z9mI7xE02gYgXjpawbgna25-00k5923klU7IPJJ~4E9tbx4PuhOF737LAYjh8boDPJgAFjv6gjILfxwMkC8OPu1HUhr6Cr2dExiwZe2QfpH~wsJPBpIBAnk4JRvOU1OVI04MdoSdCTBlDi1HF3AUdGlD~DAvKQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_RandomNumbersAndArrays.pdf?Expires=1517702400&Signature=gV-bc4wU9EKDa1Thcr~7DdBzrGUE8GyMRQXtNngcOVU8zvRxm6N0POsRE1ygAajKYiVBo2CbkysG9NXO2zgctrevpThYHrXtEH~HFu1MHLFq2sAPe0d52rrxJgoE5D0~mOso2~N~Cq8MtkavNucCcWLuunqf3kZWXTaYy9QDmbk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_CountingWithArrays.pdf?Expires=1517702400&Signature=Vfrde37oUxbRTJ9wOQWIAsNAXYhKsSdnRReoylsjExozMRRCanUusTNXURF3eg4RNSyVQ4MTtjP4YjAoTPAgmVJ0EHWq92NU7HdRJ27OgU4Hb0QkWMJRT8ZthSzR9abVCiPl7LuYcgH41WjSM2jYZ3yQqSdC5TrZj7Bzw00kkfQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_BreakingCaesarAlgorithm.pdf?Expires=1517702400&Signature=eNl6c7Ft6VL3OGrKTx7xxLknzALh4eO45-Fvcasv~MKmnhSQuDGEH424n5FqmgUtBPDLwA6yGRnSKRWXEHBVLgCmGVAcksxRFiLyDUT5c~C67971WwuiqUHFy8Rmte2rFfP-3UXtQ93LYOYUyNIoCa6EWZUq7Kxbmqk-9hsuQ60_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_ee6be97077f76cf4ebab8622ddac56aa_BreakingCaesarSummary.pdf?Expires=1517702400&Signature=ijskfiQM6HcCP~VGDplVdup86rGpigYwUUPWkJV-nCjscR2kJWmIn~fqvRsH9PDv6w2QYgTR7c1UswGdPKKt7kwSVXlosuSV45wJ7khBIAoGSbyq~NZ86~UzA-nBPevTgceNiuvP6e5iqjHhuCaM1sSRDIwaG9O7UuYFWPmyKxc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+            [Object Oriented Caesar Cipher]
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_ObjectOrientedIntroduction.pdf?Expires=1517702400&Signature=Lnl0QDNjrtBNsgo8hQo89G5Ak0IWc3ZcD0NbjaNuqTPGN1pXgw3DPTyq~U63GH0dGr2KjbO-dyzaOCYd0zGmqcBTsE9PqLJPGVXP0U-W5cyIyRajgu3zP~-h2A3eUG6aTfMyyEnT1YZljBBhoKlQl8ejO7NtBuioa6~I4ugbcmM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_RewritingWithEncapsulation.pdf?Expires=1517702400&Signature=AIe5tWOW3HHTNCta~XTyHnWOhy2tQxEj1qCcIPnHlsj4DrSUjq-dAPV0qguD-I3o2vD145vbiGIsnzWXjQ~VqdptSqBIyNNra04tfu~3X0IS75PbJCa8N6aD3NYriipFySHJy0WbVfqPjPfS7IPqBDXzFsVT4oZB7O8KhciT~X0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_Fields.pdf?Expires=1517702400&Signature=ViNH7DNiwGVxQ7DYpM3JtKcYKcTzYMCKNolmupEs3zjzNV5BLuk1OhjFN6NSWu4nIg4R-cogxvrddTv6eMVU7qWwnI7ywtYoFE4mVl9Wg58jVgefp2MHvyd2yTM0L7i5bXaiEUpDJ3Yu0lF9jiLbeEeEtILN0XACJfKBWv8fEbY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_Visibilty.pdf?Expires=1517702400&Signature=N9EUki-SafEJmjyRHdacwSWl6uEl~ngiEzpW1lbF2iUXsF6L5J1xwnA1ZLb1ygPplGd4-~jmN55GqeueM06irMneevy~pgZR94UD2F43krRE2yRErfl-wQyumQ-qhKgxo5iWeU9QX~pfDlOrgxNhMtvvg5tzJl1IdNvPEGHxi~Q_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_Constructors.pdf?Expires=1517702400&Signature=ZcCC5CiXuxjfAcLdQBIuTdv5gDaPdvZYqRLn0rRs99c3x3PyAI9LOQlO053~R78moB2FMMM3pS28MPeEIVGX34oyhxrd1HhRzXHfPRpkBNU5isTHrJf9FwDGzdDEw2KnAy6VnPrMpEOBmDzhCsWmoG5qsrhOVwM83c7S2UqrYhI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              https://d3c33hcgiwev3.cloudfront.net/_89ae0d2bb4dcc681ab4aef13ac91ae29_ObjectOrientedSummary.pdf?Expires=1517702400&Signature=GkT9qKN~ZkbXxPhNRZ6dpsU2HjBbk7C00G1b5TIb8xoR52zyXjnYIxPDHLL-anP4ohK5AI6223oOMcvf~uVzzD~LuH-lbF1poe4JTGeo1puBUpD~MSIQuSO~BGOCjB1tdogFNdEuh7IFkazybOck2Zw3FBwTCp2wRIJfoeDsnE4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+        [IMPLEMENTING THE CAESAR CIPHER]
+            Brief History: Egypt(1900BCE)/Mesopotamia(1500BCE)/Roman Empire(80BCE)/Vigenere Cipher(1553)/World War/Present(https)
+            Caesar Cipher Overview
+              Encryption: Substitute letter with (letter+N)
+              Decryption: Encrypt with 26-N
+              Two ways of think about it
+                1.Math on letters:
+                  'F' - 3 = 'C'
+                  'A' - 3 = ? -> Need to wrap around…
+                2.Pre-shift Alphabet
+                  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                  XYZABCDEFGHIJKLMNOPQRSTUVW
+              Concepts Required: 
+                • String manipulation
+                • for loops count over a range
+                **SolvingProblemsWithSoftware Specialization
+            Creating and Manipulating Strings
+              Strings are Inmutable
+                • Cannot change them
+                • Can only make new ones
+              Concatenation
+  			        • Fancy word for “stick together”
+  			        • Use + operator with a String operand  -> "XYZ" + "ABCDEFGHIJKLMNOPQRSTUVW"
+  			        **NOTE: Multiple concatenation on String generates slow performance -> StringBuilder
+  			        
+                //String (Caesar Cipher useful Script)
+  			          String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  //String constant pool
+                  int key = 23;
+                  String encr = alphabet.substring(key) + alphabet.substring(0,key);
+              StringBuilder
+                Java has StringBuilder for exactly mutable sequence of characters
+                StringBuilder sb = new StringBuilder(“Hello”);
+                Methods: append|insert|charAt|setCharAt|toString
+            Counting Loops
+              • You've used different loops in solving problems:
+                while    -> while(true){… break …}
+                for-each -> for(String s : fr.lines()) {..}
+              • You've used indexes to access strings  
+                "cgatga".indexOf("atg");
+				        "cgatga".substring(1,4);
+			        • ¿How do we create the reverse of a String? -> for-loop
+			          for-loop -> . Separated by semi-colons
+			      			. Initialization (happens once, before guard)
+				  			  . Guard, evaluated before loop body
+				  			  . Increment, executed after loop body 
+			          Palindromes can be source of fun
+			            . Нажал кабан на баклажан
+			            . lli trota la tortilla
+			            . Eh, ça va, la vache?
+			            . Draw, O Caesar, erase a coward
+			        
+              //ReverseString.java
+  				      pubilc String reverse(String str){
+  				        String reverseStr = "";
+  				        for(int k = 0; k < str.length(); k++){
+  				           reverseStr = str.charAt(k) + reverseStr;
+  				        }
+  				        return reverseStr;
+  				      }
+            Character class
+              The type char is primitive, single quotes 'a', '1', ''... "a" is a String
+              Methods:
+                Character.toLowerCase('G') -> 'g'
+                Character.toUpperCase('g') -> 'G'
+                Character.isLowerCase('G') -> return false
+                Character.isDigit('2')     -> return true
+
+            [Programming Exercise]    
+              https://d3c33hcgiwev3.cloudfront.net/_b19c685718f465cb177ba2d74383ec16_ProgrammingExercise-ImplementingTheCaesarCipher.pdf?Expires=1517702400&Signature=TjZLAXOA-gTK7e-fznOCLYyY~k6IIcS98ZASVRgfGQzOZ3wWCsSk6ydC~Fc8tlLjygHrC4fXZfdKpBtUZocJRy1DFsXb1Se8GThraTbW5gqAW7Xc5nJIvPbg3q3ynObUGv6kTDb8byMWxoI06LQgwZ1GnnwZpRstit5-LjlCPrI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+        [BREAKING THE CAESAR CIPHER]
+            Breaking Caesar
+              Intended recipient will know the key
+              • Encrypt with 7, Decrypt with Encript(26 - key) -> Encrypt 19
+              What about "cracking?
+              • Thief or hacker "finds" key
+              • Can we use brute force? 
+                -> How many possible keys are there? Try all!
+                Brute force: encryption fast, key space small
+              //eyeballDecrypt.java
+                public void eyeballDecrypt(String encrypted){
+                  CaesarCipher cipher = new CaesarCipher();
+                  for(int k=0; k < 26; k++){
+                    String s = cipher.encrypt(encrypted,k);
+                  System.out.println(k+"\t"+s);
+                  }
+                }
+            Arrays
+              Declaration:    int [] results;
+              Allocation:     results = new int[13];
+              Initialization: int[0] = 999;
+              ...int[] anArray = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
+            Random Numbers and Arrays
+              //DiceRoller.java
+              import java.util.Random;
+               ...
+                Random rand = new Random();
+                int dice1 = rand.nextInt(6)+1;
+            Counting with Arrays
+              Counting common Words -> https://github.com/first20hours/google-10000-english
+            Counting Ocurrences
+              Decrypt without Eyeball/Human
+              • Rely on letter frequencies in English
+                - Use frequencies in other languages as needed
+                - We will find the maximally occurring character
+                - Assume this is 'e', find shift!
+              Code to counting ocurrencies
+                //CountingOccurrences.java
+                  String alph = "abcdefghijklmnopqrstuvwxyz";
+                  int[] counts = new int[26];
+                  for(int k = 0; k < message.length(); k++){
+                    char ch = Character.toLowerCase(message.charAt(k));
+                    int dex = alph.indexOf(ch);
+                    if(dex != -1){
+                      counts[dex] += 1;
+                    }
+                  }
+                From Algorithm to Code
+                  public String decrypt(String encrypted){
+                    CaesarCipher cc = new CaesarCipher();
+                    int[] freqs = countLetters(encrypted);
+                    int maxDex = maxIndex(freqs);
+                    int dKey = maxDex - 4;
+                    if(maxDex < 4){
+                      dkey = 26 - (4-maxDex);
+                    }
+                    return cc.encrypt(encrypted, 26-dkey);
+                  }
+            [Programming Exercises]
+              https://d3c33hcgiwev3.cloudfront.net/_1d0300f2a27e36b27dc96b74db81b81e_ProgrammingExercise-BreakingTheCaesarCipher.pdf?Expires=1517961600&Signature=dvuQbqL81OCbMwWsDTN0MBjsQPAwPDMX2fQhqVnqViuJuXaInVuNLYAOJPyT-YRQOKICGybioUxNmcaqCdokGLknlzK6bIOjpg8MvMtpCbUkMOa9UC~YUDi1IJl4U1lITAxa1Ah5DgHZG7KY8dZ~RvuBuBFgNqJp~zDrDR5~pno_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+        [OBJECT ORIENTED CAESAR CIPHER]
+            Introduction
+              Java: Object Oriented Language
+              What does that mean?
+                -> POO: Encapsulates characteristics and behavior
+                   Object = Code + Data
+              Classes vs Objects
+                Classes are types: Define what is an object of that type
+                Objects are instances: Can make many (use: new)
+              Why Object Oriented (OO)
+                Long time ago programming language designers realized that it was helpful for programmers to be able to think
+                in terms of objects as they correspond more naturally to how you think about the world. 
+                They designed object oriented languages around this idea along with a variety of features which help
+                programmers design and write large programs. You're going to learn some basic features of object oriented
+                programming here so that you can create your own classes with both code and data.
+            Rewriting with Encapsulation
+
+
+            [Programming Exercise]
+              https://d3c33hcgiwev3.cloudfront.net/_d1d7eda7314035e26a1d01dd92070c28_Programming-Exercise---OO-Caesar-Cipher.pdf?Expires=1518048000&Signature=i0jhmjSFF8hUhLpDYlhjU8p4P6NMwsiLS53ClMzjAuf4Mn9NwR9ItEvxHb40JFPMdtA~3qhberCvxJe33yO7eDRr4WnJ0WbqW08qrJyRrhVhfGYr6cY3-8aEL9HNf1kbgylFx7hYP-TB-mYtrWvqFmQjcBPKTgF1MtZep8Eo7qA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+    @WEEK2: GLADLIBS: STORIES FROM TEMPLATES
+          [MODULE LEARNING]
+            After completing this module, you will be able to:
+            • Program a word frequency counter to analyze any input text file;
+            • Select and substitute words from a list into a document template using both ArrayList and HashMap;
+            • Create new lists to use in templates;
+            • Recognize brittle code; and
+            • Improve code with flexible, object-oriented design.
+
+                [TELLING A RANDOM STORY]
+                  https://d3c33hcgiwev3.cloudfront.net/_b48629999117dd1bb4a3056ebc70e39f_RandomStoryIntroduction.pdf?Expires=1518134400&Signature=RHUUK3JIiqIICLQZALRGzwczgkzowmnZBOVZ55PeCwWZlCpA0f2k90m29A1QbRnz4T~F1ND183gmVP2yDFPPx8asUU-9gg8n9VE~-RQ~NIDarDcRC6QFuUPRQ0udtgTq4rmt3e6hzBz3aSUUpFmVpgniYfh71wfWqn9qSvesA2I_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_e40ede6e745914f7809b52ca4b7e2842_HighLevelDesignConcepts.pdf?Expires=1518134400&Signature=Pp26Znrh6MyAHyMcFZLt66ox0vDkULrnCORDGG10aFx1wPj3odgrDb9MubVvLtZvfjKGqB2u5RUjG8Ugde3YBJG47imgSViA8sXP3Ytwq77bCnQ8nsQRqflQ0Ferj3im4GdXiCB~wr6bmV4n0e1l-1KFTZZ3EvlnRDtvjYPwxzE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_a98a890048531904fa4405034a64ffc7_ArrayList.pdf?Expires=1518134400&Signature=CQuthdQBsw2Db~IUEd3uz5yB3JDN9BIXREtLczLY-VAhCMaL2zQIO-YlpcsnP7ZXdPLHch50RAgDmq9M93nbKMZor9KvZfqKeeovAiOJgOdzTyUGQF~P-46M2EPu6PYP1U46~4m9XrQ3y~7Y5pe7D7s5SRG0H2Z4m~0tc0~45eQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_5988aa1a7894defd88bf32c107750b86_ArrayListForUniqueWords.pdf?Expires=1518134400&Signature=kyhb5D7LUlsuf0BOh8VYJmQ9OheQlGwn-vnZszui-avFV3eqoniw8tVM818chgoyf8LPiHneoJkATF7kgXotippzKo3y313~M4fjPqVD9~mirFV2T1ajZ7lYm2-NTE2haxQq4V1x~N20ZngiTa8~CXXu7EJsbPaKvEG~S1BOCsA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_5988aa1a7894defd88bf32c107750b86_ArrayListAdvantagesAndIssues.pdf?Expires=1518134400&Signature=RJ1a2o1gRWWAJowtx~3l19oJ-jgWlV3DNlNfIIWZbXkBpMvTaXfnb8VWaOBRWbOFDzPAgajnzKgYcxxjtw1S~S-4vz7yhy71xWfl7WpCLWh6kQlTpA3bbLGB-eb89hJamjJ5a4reh7lPLDJQTa5ga-Bln~tkndvUNeHUc40RWDk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_b48629999117dd1bb4a3056ebc70e39f_RandomStorySummary.pdf?Expires=1518134400&Signature=CqFtAZVdoKCCN0dWrWTl9txlgDK1P4OWKKeqS-TnGcx0JhJxz-79guDE7Qs0zmxoM04RFxzRkEzIfLdMHLOeC3nChHZzuwuGb~G0l4tsFTQzgM2S6SrDNHw-KApRXhZ0raq8CJSim5vOsr0Hk4qIafSVGPiFojugZB1-tqEdFLg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                [USING AND IMPROVING GLADLIBS]
+                  https://d3c33hcgiwev3.cloudfront.net/_bb994f816b2b574dc360f49d775200fe_GladlibsIntroduction.pdf?Expires=1518134400&Signature=Dar0lO8CRgO7J8Fn512IAcZjqKlk1pBXiaeUSwnPEHT09rAAZvvahas318BGccj~nyyWaq0Ed9~zD-zreJAHESYBW3JOwMxYKMqMI5eXQ4sOSVY6i2Tp1VDN2Cwsux1Jre7RN1-NiEYxiC8czUSx3TZ5UavRZCOHlOpM6Rp2Rno_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_e45e47d64f25630082fce8bbf31d6a19_BrittleCode.pdf?Expires=1518134400&Signature=jwkIzGi1~Zy2ROPn6TkP8EkKay-BcN4wTVrINrE6O9RiDzSdLnVJ0DONVcor6pDLHf5qztXJFyZjb6JVWeXmhtJ9bigbUdsj4e-N0ycsJcYcgnyAOmKAhUsqORxN~fGbACbv6yv8tLpaC4-QkFRQWN7f86A-2W8IwmpUOrLvaDc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_a34a8f9cbac3211e316727ab9b35facb_HashMaps.pdf?Expires=1518134400&Signature=NakbPKafi-SbR6h~kBOlNOMe9C~rz5Grvq1ZIDG4XH8Gp4D9iC2d-6mMtr6hkvAVgLnkO5dDqB~7W~TIsIADPHWZGqVrKoLh2Npo57bxmd1AL8kGMGMKJF4ep14Cl3bHZ6GuZe-SoWOQQ9rx61eT77YAUxRJiXWBHTE4pKTI9dk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_139cb95ce9d87281b44c0b20e9d103be_HashMapforFlexibleDesign.pdf?Expires=1518134400&Signature=PLooJb31FZdZbq-51dqlUYOZOhOKsyR~OGKgWDVgc~FwriEOyMlwRdQnhGTDZ1z9a6BJLJ4E2pCqqe~aWI08vPf2nBXmKdO0LaLJPUHc8YfJpKEF0d67La9UuSKYJrdWJ8nF3Kvw4jI-ub4ZCVi0LWYDg76siJtBbyKOFQyZang_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+                  https://d3c33hcgiwev3.cloudfront.net/_a99627ed00ae7be35603f662e469011e_GladLibsSummary.pdf?Expires=1518134400&Signature=UJ4KET1g~WCCTcXY7KPMXGlZ7FcyF-Q0eMOZTdDWTM-InnQh0s4yt4rJClECV3tQOIc6De9d~-XPKv5ZNINErLSO1VMWSmeAAIYdHQvnTkI259xlMekykYA6vT3r8zSJaVBYd7FE6fvJn5yMJnUkTgFzkv-EcwwMz~mqgEl5b2o_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+          [TELLING A RANDOM STORY]
+              ArrayList
+                Class ArrayList in package java.util:
+                - Expands as needed using .add method
+                - Provides access via index to any element in list using .get method
+                - Essential in implementing StorageResource!
+                Basic Sintax: 
+                  ArrayList<String> words = new ArrayList<String>();
+                  words.add("Hello");
+                  words.add("world");
+                  String s = words.get(1);
+                  words.set(0, "goodbye");
+              ArrayList for Unique words
+              ArrayList Advantages and Issues
+                Arrays and ArrayLists
+                - String[] a vs ArrayList<String> a
+                  .a[k] compared b.get(k)/b.set(k)
+                - int[] ac   vs ArrayList<Integer> bc
+                  .Concerns with int/Integer conversions
+                  .ac[index]++ works
+                  .bc.get(index)++ DOES NOT WORK
+                - But, arrays don't grow, that's a concern
+
+                //WordsWithArrays.java
+                  
+              Summary
+                ArrayList
+                - Indexable Collection, like array but growable!
+                  • Access via integer index, start with zero
+                  • import java.util.ArrayList or java.util.*;
+                  • Create with generic: ArrayList<String>
+                - Common methods for ArrayList
+                  • .add(elt) - Added to end of ArrayList
+                  • .size() - Returns number of elements in ArrayList
+                  • .get(index) - Returns elements at index
+                  • .set(index, elt) - Assign elt to index location
+                ArrayList with Indexing Loops
+                - Access elements via indexing
+                  • Start with zero, loop to less than .size()
+                  • Access via .get(index)
+                  • Do not call .add()|.remove() during iteration
+                  //ArrayListwithIndexingLoop.java
+                    ArrayList<String> a = new ArrayList<String>();
+                    //clearElements...
+                    a.clear();
+                    //add elements...
+                    for(int k = 0; k < a.size(); k++){
+                      String s = a.get(k);
+                      //process s
+                    }
+                ArrayList via Indexing Loops
+                - Access elements via iterable loop
+                  • Process elements in order
+                  • Don't need index of element
+                  • Don't call .add()|.remove() during iteration
+                  //ArrayListviaIndexingLoop.java  
+                    ArrayList<String> a = new ArrayList<String>();
+                    //add elements...
+                    for(String s: a){
+                      //process s
+                    }
+              [Programming Exercise]
+                https://d3c33hcgiwev3.cloudfront.net/_76bdb56d2ae3f1eaa10096a4ede6279e_Programming-Exercise---Random-Story.pdf?Expires=1518134400&Signature=D~zaKG~2YB4n6IZHKgRLekMvzj8TqbAF~BmJv0zzJWCtTQN65fzrIqMOalA8qOVfQGBRAFh~xuCwuNKDivT8bHju5blkjggoDMEfqtjqnVxW1F6Bsj4te1CBZ8ya16y9wH8-al-E77RRaX0-PKFKbQiTHEUQu87V591mSlXdTHI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+          
+          [USING AND IMPROVING GLADLIBS]
+              [Programming Exercise]
+                https://d3c33hcgiwev3.cloudfront.net/_3cb8a62b4fc3f9ded753d758dba21690_Programming-Exercise---Using-GladLibs.pdf?Expires=1518134400&Signature=aAwW7theW~ZMhVgmB5gM8Na6XI2GIg2jInqBt2SLXpqWSM8wIj~LvlF52FeoOJb3bCh-rKoI3AA8fzm~3kC7lHXKUzJ5sgTYIMxqfo9fZhZbIfvujdNH7Iwatxm3ANbqK9cr8PZzpu3Q0fAJuMmfnd2Leyuy2XlJFv5GBvhfylg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+              HashMap
+                It's time to learn about a new way of structuring data. This also helps in structuring classes. 
+                . You've seen some of the concerns with the design of the GladLib class. 
+                . You've also seen code account nucleotides in a strand of DNA and letter frequencies to break a Caesar Cipher. 
+                . We extended this idea to counting word frequencies in any file with two parallel arrays. 
+                  - To count nucleotides we used four int variables to count each time a C, G, T, or A occurred. 
+                  - To count letter frequencies we used an array of 26 int values. One for each letter A through Z.
+                  - To count words you saw code that used two parallel ArrayLists. 
+                    These contained as many values as there are different words being counted. 
+                
+                Now you'll see how to use the concept of parallel ArrayList, to help understand the java.util.HashMap class. 
+
+                A HashMap is a class that associates keys with values, generally called a map.
+                . More mathematical than geographical
+                . Key is element in domain, value is what key maps to in range
+                . Look up key, get associated value:
+                    rainbow   : 41
+                    truth     : 17
+                    football  : 23
+                    wonderful : 23
+                . Summary:
+                  import java.util.HashMap; -> HashMap<Keys, Values>
+                  HashMap<String,Integer> map = new HashMap<String, Integer>();
+                  map.put("rainbow", 41);
+                  map.get("rainbow");  //returns 41
+                  map.containsKey("rainbow");|map.keySet().contains("rainbows");  //returns true
+                  map.keySet();| //returns an Iterable
+
+                  
+                  //HashMapSample.java -> HashMap<Keys, Values>
+                    import java.util.HashMap;
+                    ...
+                      HashMap<String, Integer> map = new HashMap<String, Integer>();
+                      map.put("rainbow", 41);
+                      map.put("truth", 17);
+                      map.put("football", 23);
+                      map.put("wonderful", 35);
+                      ...
+                      map.get("rainbow");    //41
+                      map.get("truth");      //17
+                      map.get("football");   //23
+                      map.get("wonderful");  //35
+
+                Updating values in HashMap
+                  //UpdatingValuesHashMap.java
+                    public void countWordsMap(){
+                      FileResource resource = new FileResource();
+                      HashMap<String, Integer> map = new HashMap<String, Integer>();
+    
+                      for(String s : resource.words()){
+                         w = w.toLowerCase();
+                         if(!map.containskey(w)){
+                           map.put(w, 1);
+                         }else{
+                           map.put(w, map.get(w)+1);
+                         }
+                      }
+                    }
+  
+                Accesing All values in HashMap
+                  //AccesingAllValuesHashMap.java
+                    public void printWords(){
+                      for(String s: myMap.keySet()){
+                        System.out.println(myMap.get(s)+"\t"+s);
+                      }
+                    }
+              
+              HashMap for Unique Words
+                //WordFrequenciesMap.java
+                  import edu.duke.FileResource;
+                  import java.util.HashMap;
+
+                  public class WordFrequenciesMap{
+                    HashMap<String, Integer> map;
+
+                    public WordFrequenciesMap(){
+                      map  = new HashMap<String, Integer>();
+                    }
+
+                    public void countWords(){
+                      FileResource fr = new FileResource();
+                      for(String word : fr.words()){
+                        word = word.toLowerCase();
+                        if(!map.keySet().contains(word)){
+                            map.put(word, 1);
+                        }else{
+                            map.put(word, map.get(word)+1);
+                        }
+                      }
+                    }
+
+                    public void print(int freqs){
+                      for(String word : map.keySet()){
+                        int occurrences = map.get(word);
+                        if(occurrences >= freqs){
+                          System.out.println(occurrences+"-"+word);
+                        }
+                      }
+                    }
+
+                    public static void test(){
+                      WordFrequenciesMap wfm = new WordFrequenciesMap();
+                      wfm.countWords();
+                      wfm.print(500);
+                    }
+                  }
+
+              HashMap for Flexible Design
+
+              Summary
+                Creative Store Telling
+                  .Created GradLib.java for creative stories
+                    - Motivated ArrayList as growable alternative to arrays
+                    - Motivated HashMap as more efficient structure than two ArrayLists
+                    - Examined class design concepts for developing extensible programs
+                ArrayList
+                  .Accesible via import java.util.ArrayList;
+                  .Indexable collection of elements
+                  - Store objects, not primitives, so Integer not int
+                  - Two step process to update Integer values
+                  .Methods: add(), size(), get(), set(), indexOf()
+                  .Examine elements with iterable or looping over valid indexes
+                HashMap
+                  .Accesible via import java.util.HashMap;
+                  .Collection of (key, value) pairs with keys mapping to values:
+                  - Both are objects, so Integer rather than int
+                  - Key best as immutable type, like String or Integer
+                  - Value can be anything, ArrayList, String, Integer
+                  .Methods put(), size(), get(), keySet(), containsKey()
+                  .Examine elements with iterable over keyset, cannot access via index
+
+              [Programming Exercise]
+                https://d3c33hcgiwev3.cloudfront.net/_854a81b3fde36f490a8ebb6eda7303ca_Pprogramming-Exercise---Improving-GladLibs.pdf?Expires=1518220800&Signature=aax7PxDH6A1Mba-dbVQSX9f5SSwtB-dbGG35vPblNKzNlca6B5gqTPajgs0pJg1UsCwXVeqDkuE3uSucclXaLiFbWXtzftRXAgejmOrwJ3eFjgwPcMNsogQbxPSKB2rPPv1xZbWfz3txbR8KSNfxq-YSXsehAJKkOkZeolhKN4o_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+    @WEEK3: WEB SERVER LOGS: FROM LOGS TO VISITS
+
+    @WEEK4: MINIPROJECT: VIGENÈRE CIPHER
