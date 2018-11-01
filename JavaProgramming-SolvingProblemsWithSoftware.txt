@@ -1,310 +1,373 @@
-@COURSE: Java Programming: Solving Problems with Software
-   http://www.dukelearntoprogram.com/course2/index.php
-
-	@WEEK1: FUNDAMENTAL JAVA SYNTAX AND SEMANTICS
-	    [WELCOME]
-	        + Programming Resources: http://www.dukelearntoprogram.com/index.php
-	        + Tips 4 learning programming:
-	          1.Do a little each day
-	          2.Don't give up
-	          3.Follow the 7 step process
-	          4.Read the documentation
-	          5.Use the live coding videos and assignments
-	          6.Ask for help in the forums!
-	    
-	    [GETTING STARTED WITH BLUEJ]
-	        Module Learning Outcomes
-	          [https://www.youtube.com/watch?v=CPUaTT0Xoo4&list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd]
-	          Fundamental Java Syntax and Semantics Module
-	          In this module, you will learn to write and run your first Java programs, including one program that prints “Hello!” in various countries’ languages and another where you will analyze the perimeters and other information of shapes. To accomplish these tasks, you will learn the basics of Java syntax and how to design stepwise solutions with programs.
-	    
-	          By the end of this module, you will be able to:
-	            Download and run BlueJ, the Java programming environment for this course;
-	            Access the documentation for the Java libraries specially designed for this course;
-			    Edit, compile, and run a Java program;
-			    Construct methods, variables, if else statements, and for each loops in Java; and
-			    Use Iterables (like DirectoryResource) to run a program that iterates over multiples lines in a document or webpage or multiple files in a directory.
-			    More course resources are available in the Resources tab
-
-			Why use Java?
-			   Java is a popular and widely used language. It is the foundation for the Android operating system that powers more smart phones than any other system in the world. Java is an extremely useful and quite powerful language, with extensive support on almost every kind of computer. Java is also accessible to beginners, which is why we're using it in our courses.
-
-		[VARIABLES AND MATHEMATICAL OPERATORS]
-
-	    [SEVEN STEPS FOR SOLVING PROGRAMMING PROBLEMS]
-		  1.Work Example By Hand
-		    - Solve small instance by hand.
-		    - Unclear problem?
-		    - Need domain knowledge?
-		  2.Write Down What You Did
-		    - Write down exact steps
-		    - Just that instance
-		    - Tricky: Do without thinking
-		  3.Find Patterns
-		    - Algorithm for any instance
-		    - Find patterns
-		    - Repetition, condition, values
-		    + Dificulties?
-		      . Try Step 1 + 2 again
-		      . Different inputs
-		  4.Check By Hand
-		    - Incorrect pattern? Find now
-		    - Check with different inputs
-		  5.Translate To Code
-		    - Translate algorithm to code
-		      . Programming language
-		  6.Run Test Cases
-		    - Execute program
-		    - Check answer
-		  7.Debug Failed Test Cases
-		    - Test failed? Debug
-	          . Use scientific method
-	          . Understand problem + fix
+Owen Astrachan, Andrew D. Hillton, Susan H.Rodger, Robert Duvall>
+http://www.dukelearntoprogram.com/course2/index.php
 
 
-	    []
-		    1. What is the perimeter of the shape made from the file datatest4.txt whose contents are shown below (just give to two decimal places)?
-		       R:/ 59.45
-		    2. What is the average length of a side in the shape made from the file datatest1.txt whose contents are shown below (just give to two decimal places)?
-		       R:/ 7.66
-		    3. What is the longest side in the shape made from the file datatest4.txt whose contents are shown below (just give to two decimal places)?
-		       R:/ 5
-		    4. What is the largest perimeter of a shape made from the shapes in files dataset1.txt, dataset2.txt, dataset3.txt, dataset4.txt, dataset5.txt, and
-		       dataset6.txt (just give to two decimal places)?   
-		       R:/ 62.65
-		    5. What is the name of the file that has the shape with the largest perimeter from the six files dataset1.txt, dataset2.txt, dataset3.txt, dataset4.txt,
-		       dataset5.txt, and dataset6.txt?   
-		       R:/ dataset5.txt
-		    6. The method getNumPoints returns the number of points in a Shape s.
-		       Which one of the following is NOT a correct implementation of getNumPoints?
-
-		        public int getNumPoints (Shape s) {
-				  int count = 0;
-				  for (Point p : s.getPoints()) {
-				    int newPoint = 1;
-				    count = count + newPoint;
-				  }
-				  return count;
-				}
-
-		    7. Consider the following code for the function mysteryShape that has one parameter a Shape s and calls the function getNumPoints from the assignment.
-				
-				public double mysteryShape (Shape s) {
-				  double tmp = 0;
-				  for (Point p : s.getPoints()) {
-				    
-				    if (p.getX() > 0) {
-				      
-				      if (p.getY() < 0) {
-				        tmp = tmp + 1;
-				      }
-				    }
-				  }
-				  return tmp / getNumPoints(s);    
-				}
-
-		        Which one of the following best describes the purpose of this function?
-		        The function computes the percentage of those points from the Shape s that have a positive X and a negative Y.
+@WEEK1: FUNDAMENTAL JAVA SYNTAX AND SEMANTICS
+[WELCOME]
++ Programming Resources:
+You can find more resources for this course at: http://www.dukelearntoprogram.com/course2/index.php
+This website of programming resources will be essential to your success in this course. The link above for this course is where you will go to:
+    Download our custom version of the BlueJ environment;
+    Find project resources, such as example code from the lecture videos;
+    Download images and data files for the programming exercises; and
+    See documentation for the edu.duke library, and other Javadoc.
++ Tips 4 learning programming:
+              1.Do a little each day
+              2.Don't give up
+              3.Follow the 7 step process
+              4.Read the documentation
+              5.Use the live coding videos and assignments
+              6.Ask for help in the forums!
+[GETTING STARTED WITH BLUEJ]
++Module Learning Outcomes
+[https://www.youtube.com/watch?v=CPUaTT0Xoo4&list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd]
+Fundamental Java Syntax and Semantics Module
+In this module, you will learn to write and run your first Java programs, including one program that prints “Hello!” in various countries’ languages and another where you will analyze the perimeters and other information of shapes. To accomplish these tasks, you will learn the basics of Java syntax and how to design stepwise solutions with programs.
 
 
-	@WEEK2: STRINGS IN JAVA
-	  	[GOALS FOR LESSON]
-	  	  + Learn about the Java String Class
-	  	    - Details, idioms, programming experience
-	  	    - Common String methods
-	  	  + Learn about Java types and operators
-	  	    - Numeric types and operators as well as String
-	  	    - int and double types
-	  	  + Finding patterns and information
-	  	    - Searching, repeating, reasoning
-
-	  	[POSITIONS IN A STRING:"INDEXES"]
-	  	  . NUMBER EACH POSITION
-	  	    - Starts at 0
-	  	    - Called the "index" of that character
-	  	      dukeprogramming
-	  	      012345678901234  -> "The letter at index 3 is e"
-
-	  	  .Built-in methods
-	  	    .substring(start(included), end (excluded))
-	  	    .length : How many characters in the String. [A String with length 15 has valid indices 0 to 14]
-	        .indexOf(_searchedStr_) : Find one string within another, return the starting index, if not found returns -1
-	                                  Can give another parameter specifying where to start
-	        .startsWith(_searchedStr) : Checks if the String starts with some other String (returns true/false)
-	        .endsWith(_searchedStr) :  Checks if the String ends with some other String (returns true/false)
-
-	  	     -> String s = "dukeprogramming";
-	  	        s.substring(4,7);    -> "pro"
-	  	    	s.length();          -> 15
-	  	    	s.indexOf("program") -> 4
-	  	    	s.indexOf("g")       -> 7
-	  	    	s.indexOf("g", 8)    -> 14
-	  	    	s.startsWith("duke") -> true
-	  	    	s.endsWith("king")   -> false
+By the end of this module, you will be able to:
+    Download and run BlueJ, the Java programming environment for this course;
+    Access the documentation for the Java libraries specially designed for this course;
+    Edit, compile, and run a Java program;
+    Construct methods, variables, if else statements, and for each loops in Java; and
+    Use Iterables to run a program that iterates over multiples lines in a document or webpage or multiple files in a directory.
++Why use Java?
+Java is a popular and widely used language. It is the foundation for the Android operating system that powers more smart phones than any other system in the world. Java is an extremely useful and quite powerful language, with extensive support on almost every kind of computer. Java is also accessible to beginners, which is why we're using it in our courses.
++ Download BlueJ and Open your first BlueJ project
+(Note that if you have already downloaded a version of BlueJ, you will need to uninstall and download this one.)
+http://www.dukelearntoprogram.com/downloads/bluej.php
+If you intend to follow along with the "Hello!" around the World example showcased in the next video, download the project containing the example code from the DukeLearnToProgram Project Resources (http://www.dukelearntoprogram.com/course2/files.php, download "BlueJ Project: HelloWorld class using FileResource").
+The HelloWorld project contains these files in a zip folder:
 
 
-			[PRACTICE QUIZZ]
-			   1.Consider the assignment that goes with this lesson and its algorithm for finding a gene with stop codon TAA.
-			  Consider the following DNA string. -> “AAATGCCCTAACTAGATTAAGAAACC”
-			     Which one of the following is the gene returned using that algorithm?
-			       R:/ ATGCCCTAA
-			   2.Which one of the following replaces the String variable dna with the lowercase version of this string?
-			       R:/ dna = dna.toLowerCase();
-			   3.After adding two additional parameters to findSimpleGene for the startCodon and stopCodon, which of the following 
-			     is another change that must be made for the program to compile?
-			       R:/ Two arguments must be added to the call to findSimpleGene.
-			   4.Suppose that stringa is in stringb at position pos. Which one of the following returns the part of stringb 
-			     that comes after stringa in the method lastPart?
-			       R:/ return stringb.substring(pos+stringa.length());
-			   5.In the method twoOccurrences, suppose pos is the value of the first occurrence of stringa when stringa is found. 
-			     Which of the following lines of code assigns pos2 to the second occurrence of stringa if there is a second occurrence?
-			       R:/ pos2 = stringb.indexOf(stringa, pos+1);
-			      6.Consider assignment 2 for this lesson. Consider the code to find and print all the YouTube URL links.
-			          URLResource file = new  URLResource("http://someURL");
-				for (String item : file.words()) {
-				   	   String itemLower = item.toLowerCase();
-				   	   int pos = itemLower.indexOf("youtube.com");
-				   	   if (pos != -1) {
-				       	 MISSING CODE
-				       }
-				}
-
-	    [FINDING ALL GENES IN DNA]
-	      + What you will learn
-	      -> How to repeat a process using a new form of loop in Java: the while loop
-	        . Complements the for loop with iterables
-	      -> Use of StorageResource in edu.duke library
-	        . Adding values, counting them, filtering them, preview of using arrays
-	      -> Short-circuited boolean evaluation
-	        . Helps in developing good coding practices
-
-	    [DEBUGGING CODE]
-
-	    [USING THE StorageResource CLASS] -> SEPARATION OF CONCERNS
 
 
-	@WEEK3: CSV Files and Statistics in JAVA
-	    [WHICH COUNTRIES EXPORT...?]
-	        [CSV DATA: Comma Separated Values]
-	        . Tabular (row/column) format data: write code!
-	        . Spreadsheets revolutionized and started new industries: http://n.pr/1Ov78vS
-	        . CSV files: Comma Separated Values
-
-	      + Programming with CSV Files
-	        . Spreadsheets extremely useful: visualizing, finding information, trends, much more.
-	        . Data in CSV format can be portable between different spreadsheet programs
-	        . Common formats have standards:
-	          - IETF RFC 4180: Comma Separated Values (CSV)
-	          - ISO/IEC 29500: Open Office XML
-	        . Use existing library: Apache CSVParser
-
-	        [USING CSV LIBRARIES]
-	        import org.apache.commons.csv.*;
-	        ...
-	          FileResource fr = new FileResource();
-	          CSVParser parser = fr.getCSVParser();
-	          for(CSVRecord record : parser){
-	            System.out.print(record.get("Name")+" ");
-	            System.out.print(record.get("Favorite Food")+" ");
-	            System.out.println(record.get("Favorite Color"));
-	          }
-
-	        [PROGRAMMING EXERCISE-PARSING EXPORT DATA]
-	 		  https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-ParsingExportData.pdf
-
-	    [WEATHER CSV PROBLEM]
-	        [CONVERTING STRINGS TO NUMBER]
-	          .Cannot just assign String to int
-	          .Use Integer.parseInt
-	          .Real numbers: Double.parseDouble
-
-	        ... 
-	            String yearStr = row.get("year");
-	            int value = Integer.parseInt(yearStr);
-
-	        [JAVA FOR NOTHING]
-	          .Literal null has this type
-	          .Can be converted to any object type
-
-	          + PRIMITIVES VS OBJECTS
-	            Primitive types: cannot be null byte/short/int/long/float/double/char/boolean
-	            Object types: can be null
-
-	        [PROGRAMMING EXERCISE-PARSING WEATHER DATA]
-	          https://d3c33hcgiwev3.cloudfront.net/_3fc8c8de17d90ac3e59c086b19fecd6d_ProgrammingExercise-ParsingWeatherData.pdf?Expires=1516838400&Signature=ZVgPK8G7X~qzQUBO7ohiwjKGwbZXLsiFZrHl9MF9zl05RsjTXoU~Odgdf5-5JmIB7ETwb2gj2J515LxTdKCSGbeVWuwHDptmJvPrRP~S41JgG7mSxtXX6t-WplPiDiNftjbHNiNsvkJ2Dd9-bzCM4MCkkHWqUvMulEyjTPzE6hw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+After downloading the zip folder, open the BlueJ application, and from the menu bar, select Project -> Open ZIP/JAR
+ Select the zip folder you have just downloaded. Click "Open," and you are ready to compile and run the example program along with the next videos! 
 
 
-	@WEEK4: Baby Names / Grayscale Images
-	    http://www.dukelearntoprogram.com/course2/
-
-	    [Baby Names]
-	        http://time.com/3856405/baby-name-popularity/
-
-	        [PROGRAMMING EXERCISE-ANALYZING BABY NAMES]
-	          https://d3c33hcgiwev3.cloudfront.net/_851b53b5e6ef4c4404b6f69aee558559_Module5-MiniProject-ProgrammingExerciseGuide.pdf?Expires=1516838400&Signature=PCrr6q9F8z33JtoTkv1-NB8lcXNUUeuFGSHvjdZQuCOP8QTBviugnjoQ0kJzBbj8Kw3fBgifr-jrTBAuj06KmaCogTm7slT~pPlhRSSmdxUk34cZeWbaC65tlCMjO4mXaZeQH390bsp2WHQ0LlksbxfJLXLvagGT8F887vPZxiM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-
-	    [BATCH GRAYSCALE]
-		    [GRAYSCALE]
-		      Convert an Image to grayscale:
-		      Why?
-		      . Printing: cheaper, sometimes required
-		      . Faster: easier for other processing
-		      For one image: might use image editor
-
-		      Task: Convert many images to grayscale
-		       . User selects images, from 1 to 1000
-		       . Convert each to grayscale
-		       . Save converted, new images as files
-		         - Add "gray-" prefix to original file name
-
-		        1.Ask user to pick files Iterate over them
-		        2.Convert one image to grayscale
-		        3.Combine: convert many
-		        4.Save results
-
-		    [GRAYSCALE ALGORYTHM]
-		      Domain knowledge
-		       What is gray? R = G = B
-		       -> How to convert RGB to gray?
-		          . Average? -> (255 + 0 + 255)/3 = 170
-		          . Weighted Average?
-		          . More complex formula?
-
-		        
-		    [IMAGE ITERABLE]  	
-		      ...
-		      public void grayScale(ImageResource inImage){}
-			    ImageResource outImage = new ImageResource(inImage.getWidth(), inImage.getHeight());
-			    for(Pixel pixel : outImage.pixels()){
-			      Pixel inPixel = inImage.getPixel(pixel.getX(), pixel.getY());
-			      int average = (inPixel.getRed()+inPixel.getGreen()+inPpixel.getBlue())/3;
-			      pixel.setRed(average);
-			      pixel.setGreen(average);
-			      pixel.setBlue(average);
-			    }
-			    outImage.draw();
-			  }
++ Using BlueJ to program in Java
+Code Organization in Java
+Java is Object oriented.
+Code is organized in classes.
+    Source Code(.java file extensions)
+    Contain Methods
+  
 
 
-		    [BATCH PROCESSING]
-		      ...
-		      public void batchGrayScale(){
-	            DirectoryResource dr = new DirectoryResource();
-		        for(File file : dr.selectedFiles()){
-		          ImageResource img = new ImageResource(file);
-		          grayScale(img);
-		        }
-		      }
+Where do you write code?
+Programming environment
+BlueJ (Good for novices, Focus on code not editor, We have added features)
++ Practice Quiz: Getting Started With BlueJ
 
 
-		    [SAVING IMAGES]
-		      ...
-		      String fName = img.getFileName();
-		      String newName = "copy-"+fName;
-		      img.setFileName(newName);
-		      //img.draw();
-		      img.save();
 
 
-		    [PROGRAMMING EXERCISE-BATCH GRAYSCALE IMAGE]
-		      https://d396qusza40orc.cloudfront.net/phoenixassets/duke-java-programming/ProgrammingExercise-BatchGrayscale.pdf
+[VARIABLES AND MATHEMATICAL OPERATORS]
++ SHAPES: Collections of Points
+    Shape is a collection of points
+        How do we construct a polygon/shape?
+        How do we access points in a polygon/shape?
+        What operations/methods can we implement?
+    Shape can be simple or complex, comprised of just a few points or many, many points.
+    Shapes (Polygons) used in many applications
+    Triangle is a collection of three points
+        Basis for complex and wireframe models
+
+
+    Circles and other shapes aren't a finite collection of points. However, even with our simple class, we could model it using many points.
+
+
+
+
++ Understanding Code
+    Java classes Shape and Point
+    What can these classes do?
+    How would you code on your own?
+        Need to know semantics of code
+        Fancy word for meaning
+    What are semantics of code?
+        How to execute step-by-step by hand
+
+
++ Variables
+
+
+In some languages such as C, no default value is ever provided when you declare a variable. Meaning, you get undefined behavior if you use an uninitialized variable. This is such a common and significant problem that Java provides two solutions: an initial default value of zero is given to instance variables, or an explicit error is given for using a local variable before initializing it. Of course, variables are only useful if you make use of the value that they have.
+
+
++ Mathematical Operators
+As you knwo from math, there are some precedence within some operators.
+
+
+
+
++ Practice Quiz: Variables and Mathematical Operators
+ 
+
+
+
+
+[Functions and Conditionals]
++Functions
+Functions extract a computation out, giving it a name and parameters. You then can use the function to perform that computation without rewriting it. You can also think about what the function does and not how it does it. Technically speaking, Java doesn't have functions. It has methods since all code in Java is inside of objects.
+However, these concepts will then lay the foundation for understanding method calls.
+
+
+
+
+
+
++ Conditionals
+Now, let's see how to execute code with conditional statements in it.
+
+
+
+
++ Practice Quiz: Functions and Conditionals
+
+
+
+
+
+
+[Classes, Types and For each Loop]
++ Classes
+As you continue learning how Java works, it is important to talk for a bit about objects and classes. Before we delve into the specific semantics, let's talk for a minute about the high level concepts.
+
+
+The ideas of objects are supposed to help programmers think about their data in terms of objects that make logical sense. For example, if wemake a new point, we are creating an object which represents something we can concretely think about, in this case a point on a plane.
+
+
+
+
++ New
+Now that you have the high level concepts, let us delve into the step by step execution of our example Point code. We're going to start in main which we'll talk about more later. Args gives you access to the command line arguments which you won't need for quite a while. So we're just going to ignore that. The first line declares point P1 and initializes it to a new point. Note that classes are types, so we can use class types that we make to declare variables. a
+
+
+
+
+
+
++ Method
+In the previous lesson, we executed the declaration and initialization of points p1 and p2. And you learned about new in constructors. Now, it is time for you to learn about Method Calls. Method Calls work a lot like Function Calls, except that we have to pass this parameter to let the method know which object it is working on.
+
+
+
+
+
+
++ Types
+At this point, you have seen a variety of types such as Int, Point and FileResource. But, what exactly is a type? A type specifies how data should be represented, interpreted, and operated on, as well as, what operations you can do with it. 
+
+
+Types: Interpretation + Operation
+    Everything is a number: 
+        Specifically represented as bits.
+        But not all numbers mean the same thing
+
+
+    Types Specify
+        Interpretation: What does a specific number means?
+        Operations: What can I do?
+        And how should it be done.
+
+
+Interpretation
+If we looked in memory, we'd find 1's & 0's. The represent the data, but what do they mean?
+If x is an int, these 1's and 0's mean: 1234567890
+If x is a float, these 1's and 0's mean: 1228890.25
+If x is a String,  these 1's and 0's represent the location of the object.
+
+
+
+
+Operations
+Types also specify what operations, consider: X + Y
+    If X & Y are both int: this operations is legal and does integer addition
+    If  X & Y are both String: this operation is legal and does String concatenation
+     If  X & Y are both Point: this operation is not legal, + is not a valid operation on Points
+
+
+
+
+Conversion Between Types
+What if you need to convert between types?
+    Some types can be converted implicitly?
+        int x = 3;
+        double d = x;  //Implicit conversion
+
+
+    Some types require an explicit cast:
+        double d = 3.14;
+        int x = (int)d;  //explicit conversion
+
+
+    Others requires method calls:
+        String s = "3";
+        int x = Integer.parseInt(s);
+
+
+Primitives vs Objects
+    Primitives: int, double, char, boolean, float, long, byte, short
+        Value is directly in box
+        Can't invoke methods on them
+        Can't be null (Except when using wrapper classes).
+
+
+    Objects: String, Point, Shape, any class you write yourself
+        Reference (arrow) to object
+        Can invoke methods, access fields with dot
+        Can be null
+        == checks if arrow points at some object
+
+
+
+
++ For Each Loops
+Hi, now we're going to learn how a for-each loop works. This piece of code looks similar to the hello around the world example that you started with earlier. To make this work, we need to add an import statement to the top to tell Java where to find the FileResource class. FileResource is in a package that we provide to you to let you manipulate data in files before you learn the more advanced techniques and concepts that would let you do this in Java directly without the classes we've created. Accordingly, this is found in the edu.duke package. If you want to run this code in BlueJ, you could do so by creating a HelloWorld object. And then invoking its runHello method. We could also add a main method, which does the same thing if we want to be able to run the code directly, but outside of BlueJ, in another environment.
+
+
+
+
+
+
++ Practice Quiz: Classes, Types, and For Each Loops
+
+
+
+
+
+
+
+
+[SEVEN STEPS FOR SOLVING PROGRAMMING PROBLEMS]
++ Solving Programming Problems
+In this lesson you're going to learn how to solve programming problems using the seven-step approach that we will use throughout the rest of this course. When you're solving a problem, you're going to start with a problem statement. You know that you want to end up with working code but going straight from a problem statement to working code is a rather large leap. It can take some significant thought and work. 
+
+
+     1.Work Example By Hand: Solve small instance by hand  |  Unclear problem?  |  Need domain knowledge?
+     2.Write Down What You Did: Write down exact steps  |  Just that instance  |  Tricky: Do without thinking
+     3.Find Patterns: Algorithm for any instance  |  Find patterns  |  Repetition, condition, values
+         Dificulties?  Try Step 1 + 2 again; Different inputs
+     4.Check By Hand: Incorrect pattern? Find now  |  Check with different inputs
+     5.Translate To Code: Translate algorithm to code  |  Programming language
+     6.Run Test Cases: Execute program  |   Check answer
+     7.Debug Failed Test Cases: Test failed? Debug  |  Use scientific method  |  Understand problem + fix
+
+
+
+
++ Seven Steps in Action: Developing an Algorithm
+     Problem: Given a shape, find its perimeter
+         
+
+     Step1: Work an Instance Yourself:
+         Domain knowledge?
+         What is a Perimeter? The total distance around a two dimensional shape.
+          
+
+         P = D1 + D2 + D3 + D4  
+         D1  = (-1, 3) a (-1, -1); D2 = (-1, 1) A (4, -1); D3 = (4, -1) a (1, 3); D4 = (1, 3) a (-1, 3) 
+         D1  = sqrt[(-1 - -1)^2 + (3 - -1)^2] =  sqrt[0^2 + 4^2] = sqrt[0+16]    = sqrt[16] = 4
+         D2 = sqrt[(-1-4)^2 + (-1 - -1)^2]   = sqrt[-5^2 + 0^2] = sqrt[25 + 0] = sqrt[25] = 5
+         D3 = sqrt[(4-1)^2 + (-1 - 3)^2]     = sqrt[3^2 + -4^2] = sqrt[9+16]    = sqrt[25] = 5  
+         D4 = sqrt[(1 - -1)^2 + (3 - 3)^2]   = sqrt[2^2 + 0^2]  = sqrt[4 + 0]   = sqrt[4] = 2
+         P = 4 + 5 + 5 + 2
+         P = 16 
+
+
+    Step2: Write down what you did:
+         1. Found the distance from the 1st point to the 2nd point (it was 4)
+         2. Found the distance from the 2nd point to the 3rd point (it was 5)
+         3. Added 4 + 5 = 9
+         4. Found the distance from the 3rd point to 4th point (it was 5)
+         5. Added 9 + 5 = 14
+         6. Found the distance from the 4th point to 1st point (it was 2)
+         7. Added 14 + 2 = 16
+         8. 16 is my answer
+     
+    Step3: Generalize:
+         
+     When we want to reorder things, we have to think about it and be very careful.
+     Here, the reordering is totally fine. It's totally fine since addition is commutative, it doesn't matter what order we do the addition in. Second, why is it useful?
+     Well, now we're going to the points in order, giving us a natural for each repetition. But the other point, which does not lend itself for each repetition, is the one we just used.
+     That means we can simply remember the previous point in a variable and use it with the next point. We express this idea by updating our algorithm to look like this.
+
+
+      
+
+    
+     
+
+
+     Step4. Test Algorithm
+     
+
+      
+    
+
+
++ Seven Steps in Action: Translating to Code
+see ...Coursera/Java/SolvingProblems/Week1/perimeter
+import edu.duke.*;
+
+
+public class PerimeterPractice {
+    public double getPerimeter (Shape s) {
+        // Start with totalPerim = 0
+        // Start wth prevPt = the last point 
+        // For each point currPt in the shape,
+            // Find distance from prevPt point to currPt 
+            // Update totalPerim by currDist
+            // Update prevPt to be currPt
+        // totalPerim is the answer
+        return 0;
+    }
+
+
+    public void testPerimeter () {
+        FileResource fr = new FileResource();
+        Shape s = new Shape(fr);
+        double length = getPerimeter(s);
+        System.out.println("perimeter = " + length);
+    }
+
+
+    public static void main (String[] args) {
+        PerimeterPractice pr = new PerimeterPractice();
+        pr.testPerimeter();
+    }
+}
+
+
+
+
+
+
++ Programming Exercise: Calculating a Shape’s Perimeter
+Be sure to consult the documentation on DukeLearnToProgram to understand how the Shape, Point, DirectoryResource and FileResource classes work: 
+Assignment 1: Calculating information about shapes
+In this assignment, you will complete the PerimeterAssignmentRunner class to calculate lots of interesting facts about shapes. This class has been started for you in the BlueJ project called assignmentPerimeter (go to: http://www.dukelearntoprogram.com/course2/files.php and download the Calculating the Perimeter of a Shape BlueJ project). This project also contains several data files. In addition, you will need to look at the documentation for the Shape class and the Point class.
+
+
+The PerimeterAssignmentRunner class already includes the following complete methods:
+(a) The getPerimeter method has one parameter s of type Shape. Given a shape, this method returns the perimeter of the shape.
+(b) The testPerimeter method has no return value, hence its return type is void. This method is used to select a data file by using the FileResource class, create a shape based on the points from that data file, and then calculate the perimeter of the shape and output its value.
+(c) The triangle method has no return value and creates a triangle that you can use to test the methods you will create in this assignment.
+(d) The printFileNames method, which we will discuss in Assignment 2.
+(e) The main method.
+
+
+For this assignment, you will add or modify several methods in the PerimeterAssigmentRunner class.
+1. Complete writing the method getNumPoints that has one parameter s that is of type Shape. This method returns an integer that is the number of points in Shape s. Hint: You will need to iterate over all the points in the Shape S and count them.
+2. Add code in the method testPerimeter to call getNumPoints and to print the result.
+3. Complete writing the method getAverageLength that has one parameter s that is of type Shape. This method returns a number of type double that is the calculated average of all the sides’ lengths in the Shape S.
+4. Add code in the method testPerimeter to call the method getAverageLength and to print out the result. Note if you were to select the file example1.txt, then the average side length should be 4.0.
+5. Complete writing the method getLargestSide that has one parameter s that is of type Shape. This method returns a number of type double that is the longest side in the Shape S.
+6. Add code in the method testPerimeter to call the method getLargestSide and to print out the result. Note if you were to select the file example1.txt, then the longest side should be 5.0.
+7. Complete writing the method getLargestX that has one parameter s that is of type Shape. This method returns a number of type double that is the largest x value over all the points in the Shape s.
+8. Add code in the method testPerimeter to call the method getLargestX and to print out the result. Note if you were to select the file example1.txt, then the longest side should be 4.0.
+
+
+Assignment 2: Processing multiple Shape files
